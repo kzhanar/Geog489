@@ -1,0 +1,220 @@
+Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    8.694    8.694 {built-in method builtins.exec}
+        1    0.000    0.000    8.694    8.694 <string>:1(<module>)
+        1    0.001    0.001    8.694    8.694 main_script_profiling.py:35(mp_handler)
+        4    0.000    0.000    8.598    2.150 threading.py:563(wait)
+        4    0.000    0.000    8.598    2.150 threading.py:280(wait)
+       19    8.598    0.453    8.598    0.453 {method 'acquire' of '_thread.lock' objects}
+        1    0.000    0.000    8.571    8.571 pool.py:366(starmap)
+        1    0.000    0.000    8.571    8.571 pool.py:764(get)
+        1    0.000    0.000    8.571    8.571 pool.py:761(wait)
+       13    0.000    0.000    0.061    0.005 util.py:205(__call__)
+        1    0.000    0.000    0.061    0.061 pool.py:735(__exit__)
+        1    0.000    0.000    0.061    0.061 pool.py:651(terminate)
+        1    0.000    0.000    0.061    0.061 pool.py:677(_terminate_pool)
+        1    0.000    0.000    0.059    0.059 context.py:115(Pool)
+        1    0.000    0.000    0.059    0.059 pool.py:183(__init__)
+       92    0.000    0.000    0.058    0.001 popen_spawn_win32.py:101(wait)
+       92    0.058    0.001    0.058    0.001 {built-in method _winapi.WaitForSingleObject}
+        2    0.000    0.000    0.058    0.029 process.py:142(join)
+        1    0.000    0.000    0.031    0.031 pool.py:302(_repopulate_pool)
+        1    0.000    0.000    0.031    0.031 pool.py:311(_repopulate_pool_static)
+       12    0.000    0.000    0.031    0.003 process.py:110(start)
+       12    0.000    0.000    0.030    0.003 context.py:324(_Popen)
+       12    0.000    0.000    0.030    0.003 popen_spawn_win32.py:44(__init__)
+        3    0.000    0.000    0.027    0.009 threading.py:880(start)
+       12    0.024    0.002    0.024    0.002 {built-in method _winapi.CreateProcess}
+       24    0.000    0.000    0.003    0.000 reduction.py:58(dump)
+       27    0.001    0.000    0.003    0.000 {method 'dump' of '_pickle.Pickler' objects}
+       12    0.000    0.000    0.002    0.000 process.py:128(terminate)
+       12    0.000    0.000    0.002    0.000 popen_spawn_win32.py:120(terminate)
+       12    0.002    0.000    0.002    0.000 {built-in method _winapi.TerminateProcess}
+       48    0.000    0.000    0.001    0.000 connection.py:956(reduce_pipe_connection)
+        1    0.000    0.000    0.001    0.001 __init__.py:1311(Describe)
+        1    0.000    0.000    0.001    0.001 _base.py:388(describe)
+        1    0.001    0.001    0.001    0.001 {built-in method describe}
+       12    0.000    0.000    0.001    0.000 spawn.py:150(get_preparation_data)
+        1    0.000    0.000    0.001    0.001 pool.py:668(_help_stuff_finish)
+       90    0.000    0.000    0.001    0.000 popen_spawn_win32.py:117(poll)
+        1    0.001    0.001    0.001    0.001 {method 'acquire' of '_multiprocessing.SemLock' objects}
+       48    0.000    0.000    0.001    0.000 reduction.py:106(__init__)
+       12    0.000    0.000    0.000    0.000 spawn.py:78(get_command_line)
+       12    0.000    0.000    0.000    0.000 process.py:61(_cleanup)
+        3    0.000    0.000    0.000    0.000 context.py:110(SimpleQueue)
+       12    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        3    0.000    0.000    0.000    0.000 queues.py:339(__init__)
+       24    0.000    0.000    0.000    0.000 process.py:344(__reduce__)
+       27    0.000    0.000    0.000    0.000 reduction.py:38(__init__)
+       12    0.000    0.000    0.000    0.000 {built-in method _winapi.CreatePipe}
+       12    0.000    0.000    0.000    0.000 pool.py:179(Process)
+        1    0.000    0.000    0.000    0.000 pool.py:342(_setup_queues)
+       24    0.000    0.000    0.000    0.000 synchronize.py:100(__getstate__)
+       12    0.000    0.000    0.000    0.000 process.py:80(__init__)
+       12    0.000    0.000    0.000    0.000 {built-in method io.open}
+        3    0.000    0.000    0.000    0.000 connection.py:535(Pipe)
+       48    0.000    0.000    0.000    0.000 {built-in method _winapi.OpenProcess}
+        3    0.000    0.000    0.000    0.000 {built-in method _thread.start_new_thread}
+       54    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+       12    0.000    0.000    0.000    0.000 ntpath.py:450(normpath)
+       12    0.000    0.000    0.000    0.000 process.py:224(exitcode)
+       12    0.000    0.000    0.000    0.000 ntpath.py:61(isabs)
+        1    0.000    0.000    0.000    0.000 __init__.py:376(AddError)
+       13    0.000    0.000    0.000    0.000 util.py:186(__init__)
+        1    0.000    0.000    0.000    0.000 _base.py:191(addError)
+       12    0.000    0.000    0.000    0.000 process.py:153(is_alive)
+       90    0.000    0.000    0.000    0.000 {built-in method _winapi.CloseHandle}
+       12    0.000    0.000    0.000    0.000 subprocess.py:282(_args_from_interpreter_flags)
+        3    0.000    0.000    0.000    0.000 connection.py:69(arbitrary_address)
+        5    0.000    0.000    0.000    0.000 __init__.py:325(AddMessage)
+        3    0.000    0.000    0.000    0.000 tempfile.py:379(mktemp)
+        3    0.000    0.000    0.000    0.000 queues.py:369(put)
+        5    0.000    0.000    0.000    0.000 _base.py:176(addMessage)
+       24    0.000    0.000    0.000    0.000 popen_spawn_win32.py:97(duplicate_for_child)
+        3    0.000    0.000    0.000    0.000 threading.py:802(__init__)
+       72    0.000    0.000    0.000    0.000 {built-in method _winapi.DuplicateHandle}
+       32    0.000    0.000    0.000    0.000 ntpath.py:124(splitdrive)
+       35    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        6    0.000    0.000    0.000    0.000 tempfile.py:149(__next__)
+      258    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       44    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:398(parent)
+      120    0.000    0.000    0.000    0.000 context.py:351(get_spawning_popen)
+        3    0.000    0.000    0.000    0.000 context.py:65(Lock)
+       24    0.000    0.000    0.000    0.000 reduction.py:71(duplicate)
+        3    0.000    0.000    0.000    0.000 synchronize.py:161(__init__)
+        6    0.000    0.000    0.000    0.000 tempfile.py:152(<listcomp>)
+       24    0.000    0.000    0.000    0.000 queues.py:355(__getstate__)
+        3    0.000    0.000    0.000    0.000 synchronize.py:50(__init__)
+       39    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 connection.py:181(send_bytes)
+        7    0.000    0.000    0.000    0.000 _base.py:38(gp_fixargs)
+       90    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+       48    0.000    0.000    0.000    0.000 random.py:343(choice)
+       12    0.000    0.000    0.000    0.000 popen_spawn_win32.py:28(_close_handles)
+        4    0.000    0.000    0.000    0.000 threading.py:528(__init__)
+        1    0.000    0.000    0.000    0.000 pool.py:468(_map_async)
+       48    0.000    0.000    0.000    0.000 context.py:357(assert_spawning)
+        3    0.000    0.000    0.000    0.000 reduction.py:48(dumps)
+        3    0.000    0.000    0.000    0.000 synchronize.py:114(_make_name)
+      133    0.000    0.000    0.000    0.000 {built-in method nt.getpid}
+        3    0.000    0.000    0.000    0.000 connection.py:279(_send_bytes)
+        8    0.000    0.000    0.000    0.000 _base.py:28(gp_fixarg)
+        7    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+       48    0.000    0.000    0.000    0.000 connection.py:168(fileno)
+       24    0.000    0.000    0.000    0.000 context.py:354(set_spawning_popen)
+        3    0.000    0.000    0.000    0.000 tempfile.py:76(_exists)
+       15    0.000    0.000    0.000    0.000 _weakrefset.py:86(add)
+        4    0.000    0.000    0.000    0.000 ntpath.py:77(join)
+       36    0.000    0.000    0.000    0.000 spawn.py:87(<genexpr>)
+        3    0.000    0.000    0.000    0.000 {built-in method nt.lstat}
+       48    0.000    0.000    0.000    0.000 random.py:237(_randbelow_with_getrandbits)
+        4    0.000    0.000    0.000    0.000 threading.py:228(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method adderror}
+        2    0.000    0.000    0.000    0.000 threading.py:1133(is_alive)
+        5    0.000    0.000    0.000    0.000 {built-in method addmessage}
+        3    0.000    0.000    0.000    0.000 {built-in method _winapi.CreateNamedPipe}
+        1    0.000    0.000    0.000    0.000 pool.py:793(__init__)
+       39    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method _winapi.WriteFile}
+       65    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+      124    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       24    0.000    0.000    0.000    0.000 process.py:94(<genexpr>)
+       44    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+       12    0.000    0.000    0.000    0.000 {built-in method msvcrt.open_osfhandle}
+       12    0.000    0.000    0.000    0.000 {built-in method nt.getcwd}
+       60    0.000    0.000    0.000    0.000 popen_spawn_win32.py:57(<genexpr>)
+        1    0.000    0.000    0.000    0.000 pool.py:744(__init__)
+       96    0.000    0.000    0.000    0.000 connection.py:158(readable)
+        5    0.000    0.000    0.000    0.000 threading.py:1066(_wait_for_tstate_lock)
+       12    0.000    0.000    0.000    0.000 {built-in method _winapi.GetExitCodeProcess}
+       12    0.000    0.000    0.000    0.000 spawn.py:132(_check_not_importing_main)
+        8    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+      205    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       12    0.000    0.000    0.000    0.000 subprocess.py:272(_optim_args_from_interpreter_flags)
+        7    0.000    0.000    0.000    0.000 arcobjectconversion.py:65(convertArcObjectToPythonObject)
+       36    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+       12    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 threading.py:1028(join)
+       72    0.000    0.000    0.000    0.000 {built-in method _winapi.GetCurrentProcess}
+       52    0.000    0.000    0.000    0.000 process.py:99(_check_closed)
+        6    0.000    0.000    0.000    0.000 connection.py:130(__del__)
+       96    0.000    0.000    0.000    0.000 connection.py:163(writable)
+       51    0.000    0.000    0.000    0.000 connection.py:134(_check_closed)
+        9    0.000    0.000    0.000    0.000 threading.py:1358(current_thread)
+       12    0.000    0.000    0.000    0.000 process.py:193(name)
+      122    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1033(_handle_fromlist)
+       27    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        6    0.000    0.000    0.000    0.000 connection.py:276(_close)
+        3    0.000    0.000    0.000    0.000 threading.py:757(_newname)
+        3    0.000    0.000    0.000    0.000 {built-in method _winapi.CreateFile}
+       12    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+       26    0.000    0.000    0.000    0.000 util.py:48(debug)
+       60    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+       12    0.000    0.000    0.000    0.000 ntpath.py:34(_get_bothseps)
+       15    0.000    0.000    0.000    0.000 _weakrefset.py:39(_remove)
+        3    0.000    0.000    0.000    0.000 threading.py:992(_stop)
+        3    0.000    0.000    0.000    0.000 {built-in method _winapi.ConnectNamedPipe}
+        1    0.000    0.000    0.000    0.000 context.py:172(set_executable)
+        4    0.000    0.000    0.000    0.000 threading.py:256(__enter__)
+       12    0.000    0.000    0.000    0.000 context.py:249(get_start_method)
+       12    0.000    0.000    0.000    0.000 process.py:205(daemon)
+        6    0.000    0.000    0.000    0.000 {method 'GetOverlappedResult' of '_winapi.Overlapped' objects}
+       27    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+        4    0.000    0.000    0.000    0.000 threading.py:268(_acquire_restore)
+        4    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+       19    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        6    0.000    0.000    0.000    0.000 tempfile.py:138(rng)
+       12    0.000    0.000    0.000    0.000 {method 'copy' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+       24    0.000    0.000    0.000    0.000 process.py:189(name)
+        4    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+       85    0.000    0.000    0.000    0.000 {method 'getrandbits' of '_random.Random' objects}
+       12    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 threading.py:1229(_make_invoke_excepthook)
+       24    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+       12    0.000    0.000    0.000    0.000 process.py:213(authkey)
+        3    0.000    0.000    0.000    0.000 threading.py:1162(daemon)
+       27    0.000    0.000    0.000    0.000 process.py:37(current_process)
+        3    0.000    0.000    0.000    0.000 {built-in method _winapi.SetNamedPipeHandleState}
+        6    0.000    0.000    0.000    0.000 connection.py:117(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'put' of '_queue.SimpleQueue' objects}
+        4    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+       12    0.000    0.000    0.000    0.000 spawn.py:45(get_executable)
+        1    0.000    0.000    0.000    0.000 context.py:41(cpu_count)
+        6    0.000    0.000    0.000    0.000 threading.py:1147(daemon)
+       48    0.000    0.000    0.000    0.000 {method 'bit_length' of 'int' objects}
+       12    0.000    0.000    0.000    0.000 threading.py:536(is_set)
+        1    0.000    0.000    0.000    0.000 pool.py:157(__init__)
+        4    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        9    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+       12    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 process.py:234(ident)
+        1    0.000    0.000    0.000    0.000 {built-in method nt.cpu_count}
+       13    0.000    0.000    0.000    0.000 util.py:44(sub_debug)
+        6    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 pool.py:731(__enter__)
+        4    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        3    0.000    0.000    0.000    0.000 {method 'getbuffer' of '_io.BytesIO' objects}
+        1    0.000    0.000    0.000    0.000 pool.py:276(_get_sentinels)
+        3    0.000    0.000    0.000    0.000 synchronize.py:90(_make_methods)
+        1    0.000    0.000    0.000    0.000 main_script_profiling.py:18(get_install_path)
+        7    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 pool.py:753(ready)
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of 'da.SearchCursor' objects}
+        2    0.000    0.000    0.000    0.000 pool.py:348(_check_running)
+        4    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        6    0.000    0.000    0.000    0.000 context.py:187(get_context)
+        1    0.000    0.000    0.000    0.000 spawn.py:41(set_executable)
+        1    0.000    0.000    0.000    0.000 pool.py:263(__del__)
+        3    0.000    0.000    0.000    0.000 context.py:197(get_start_method)
+        3    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+        3    0.000    0.000    0.000    0.000 connection.py:142(_check_writable)
+        3    0.000    0.000    0.000    0.000 tempfile.py:229(_get_candidate_names)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.divmod}
+        1    0.000    0.000    0.000    0.000 context.py:233(get_context)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'count' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
